@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BSRP EMS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <div id="death" class="death-hud hidden">
+      <div class="death-panel">
+        <div class="edge edge-top"></div>
+        <div class="corner c-tl"></div>
+        <div class="corner c-tr"></div>
+        <div class="glow-bar"></div>
+        <div class="badge danger"><span class="pulse-dot"></span> <span id="dMode">VITALS</span></div>
+        <h1 id="dTitle">CRITICAL</h1>
+        <p class="line" id="dLine1">—</p>
+        <p class="hint" id="dLine2">—</p>
+        <div class="timer-bar"><div class="fill" id="dFill"></div></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
